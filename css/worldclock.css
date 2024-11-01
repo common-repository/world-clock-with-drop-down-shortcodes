@@ -1,0 +1,56 @@
+/*
+=== World Clock Dropdown with ShortCodes ===
+Contributors: jEbbS
+Tags: world-clock, clock, widget-clock, clock-shortcodes, digital-clock
+Donate link: http://divinebusinesshouse.com/donate/
+Requires at least: 4.3
+Tested up to: 4.8.2
+Requires PHP: 5.4 or later
+Stable tag: 0.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+span.dt {
+	font-size: xx-large;
+}
+.world-clock {
+	color: #00acb1;
+	background: black;
+    overflow: hidden;
+    display: -webkit-inline-box;
+    width: 99%;
+    margin: 0 0.5%;
+}
+.two-third {
+    width: 66.66666667%;
+}
+.one-third {
+    width: 33.33333333%;
+    margin: 1em 0;
+	padding-right: 1em;
+}
+.drop-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#time-cont {
+    padding-left: 1em;
+}
+.time {
+	padding: 1em 0;
+}
